@@ -16,21 +16,16 @@ public class Cuenta {
 
     public void setIdCuenta(int idCuenta) {
         this.idCuenta = idCuenta;
-
     }
-
     public int getIdCuenta() {
         return idCuenta;
     }
-
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
     public String getNombre() {
         return nombre;
     }
-
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
@@ -51,9 +46,7 @@ public class Cuenta {
         else{
             saldo += deposito;
         }
-
     }
-
     public void retirarDinero(int retiro){
         saldo -= retiro;
     }
